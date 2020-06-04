@@ -6,12 +6,13 @@ Dieser Bereich ist vor der Veröffentlichung zu entfernen !!!
 + Inhalt vollständig überarbeitet.
 + Neue Aufteilung der Kapitel.
 + Veraltete Inhalte entfernt.
++ Link geprüft und korrigiert.
 
 ENDE   INFOBEREICH FÜR DIE AUTOREN
 
 <div class="divider" id="gdisk-1"></div>
 
-## Partitionieren mit gdisk (GPT fdisk) und fdisk
+## Partitionieren mit gdisk (GPT fdisk)
 
 *gdisk* leitet sich von **G**lobally Unique Identifier **P**artition **T**able (GPT) ab und ist eine Anwendung um Datenträger von jeder Größe zu partitionieren. *gdisk* wird unbedingt benötigt für **Datenträger, die größer als 2TB** sind.  
 *gdisk* sorgt dafür, dass Partitionen für SSDs eingerichtet sind (bzw. für Speicher, die keine 512 Byte großen Sektoren besitzen).
